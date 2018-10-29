@@ -14,9 +14,9 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="http://localhost:5000/">
+    <Application Id="App" StartPage="http://localhost:5000/index.html">
       <uap:ApplicationContentUriRules>
-        <uap:Rule Match="http://localhost:5000/" Type="include" WindowsRuntimeAccess="all" />
+        <uap:Rule Match="http://localhost:5000" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
       <uap:VisualElements DisplayName="Trial Test 123" Description="MyNgHWA" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\LargeTile.png" Square71x71Logo="images\SmallTile.png" ShortName="Test App">
