@@ -14,7 +14,7 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" StartPage="http://localhost:5000/index.html">
+    <Application Id="App" StartPage="http://localhost:5000">
       <uap:ApplicationContentUriRules>
         <uap:Rule Match="http://localhost:5000" Type="include" WindowsRuntimeAccess="all" />
       </uap:ApplicationContentUriRules>
